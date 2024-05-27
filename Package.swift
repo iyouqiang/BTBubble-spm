@@ -13,5 +13,8 @@ let package = Package(
         .library(
             name: "BTBubble",
             targets: ["BTBubble"]),
+    ],
+    targets: [
+        .target(name: "BTBubble", dependencies: [])
     ]
 )
